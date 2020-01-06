@@ -1,7 +1,7 @@
 package JavaOdPodstaw.lesson_9;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Test_2");
+    public static void main(String[] args[]) {
+        System.out.println("Hello, Piotr ");
     }
 }
