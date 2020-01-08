@@ -4,11 +4,11 @@ public class Shortcuts{
     public static void main(String[] args) {
         int i1 = 10;
 
-        //Kolejność działań. Inkrementacja po zmiennej i przed zmienna (Przedrostrkowa (++x) I Przyrostkowa (x++)
+        //Sequence of actions. Increment after and before variable (Prefix (++ x) And Suffix (x ++)
         System.out.println(i1++);
         //10
         System.out.println(i1);
-        //11 (Działanie dodało się po poprzednim wydruku)
+        //11 (Action added after previous print)
         System.out.println(i1++);
         //11
         System.out.println(i1);

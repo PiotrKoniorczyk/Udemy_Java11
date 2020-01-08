@@ -11,7 +11,7 @@ public class Foreach {
 
         System.out.println("--------------------------------------------");
 
-        //Tak działa foreach
+        //Thats how foreach its working
 
         for(int i : ints){
             System.out.println(i);

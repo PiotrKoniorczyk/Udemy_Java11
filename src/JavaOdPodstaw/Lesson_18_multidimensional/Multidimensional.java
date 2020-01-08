@@ -11,7 +11,7 @@ public class Multidimensional {
         System.out.println("--------------------------------------------");
 
         int[][][] string2 = new int[2][3][4];
-        //string2 = {}{}{}  jakas porąbana struktura
+        // string2 = {} {} {} some crazy structure
         }
     }
 

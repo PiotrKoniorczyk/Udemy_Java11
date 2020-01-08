@@ -5,8 +5,8 @@ public class Table {
 
         int[] ints;
         ints = new int[3];
-        ints[0] = 6; //pierwszy element
-        ints[1] = 3; //drugi element
+        ints[0] = 6; //first element
+        ints[1] = 3; //second element
         ints[2] = 765;
 
         System.out.println(ints[0]);

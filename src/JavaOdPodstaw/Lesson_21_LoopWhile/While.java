@@ -9,7 +9,7 @@ public class While {
             System.out.println(i);
         }
 
-//Pętla nieskończona
+//Infinite loop
 //        while(true){
 //            System.out.println(true);
 //    }
