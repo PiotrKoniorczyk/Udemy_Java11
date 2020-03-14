@@ -13,13 +13,20 @@ public class Practice_3 {
 
         var i = 0;
         while (i<5) {
-            System.out.print(ints[i]);
+            System.out.print(ints[i]+" ");
             i++;
 
         }
         System.out.println();
         System.out.println("----------");
-        var sum = ints[0]+ints[1]+ints[2]+ints[3]+ints[4];
+        var sum = 0;
+        while (i<5){
+            sum =+ ints[i];
+            i++;
+
+
+
+        }
         System.out.println("Sum = "+ sum);
 
         }
