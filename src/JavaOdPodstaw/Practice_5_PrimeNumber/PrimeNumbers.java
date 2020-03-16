@@ -1,6 +1,6 @@
-package JavaOdPodstaw.Practice_5;
+package JavaOdPodstaw.Practice_5_PrimeNumber;
 
-public class Practice_5 {
+public class PrimeNumbers {
     public static void main(String[] args) {
 
         System.out.println((-9+ " - is a prime number? - ")+primeNumber(-9));

@@ -1,6 +1,6 @@
-package JavaOdPodstaw.Practice_3;
+package JavaOdPodstaw.Practice_3_SumOfNumbers;
 
-public class Practice_3 {
+public class SumOfNumbers {
     public static void main(String[] args) {
 
         int[] ints;

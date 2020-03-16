@@ -1,7 +1,7 @@
-package JavaOdPodstaw.Practice_4;
+package JavaOdPodstaw.Practice_4_DivisibleNumbers;
 
 
-public class Practice4 {
+public class DivisibleNumbers {
     public static void main(String[] args) {
         int i = 0;
         int maxValue = 10;
