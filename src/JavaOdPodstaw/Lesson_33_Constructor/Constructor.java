@@ -1,11 +1,9 @@
-package JavaOdPodstaw.Lesson_32_GetterAndSetter;
+package JavaOdPodstaw.Lesson_33_Constructor;
 
-public class Address {
-
+public class Constructor {
 
     private String StreetNameAndHouseNumber;
     private String CityName;
-    private String postCode;
 
     public String getStreetNameAndHouseNumber() {
         return StreetNameAndHouseNumber;
@@ -23,15 +21,11 @@ public class Address {
         CityName = cityName;
     }
 
-    public String getPostCode() {
-        return postCode;
+    public Constructor(String streetNameAndHouseNumber, String cityName) {
+        StreetNameAndHouseNumber = streetNameAndHouseNumber;
+        CityName = cityName;
     }
-
-    public void setPostCode(String postCode) {
-        this.postCode = postCode;
-    }
-
-
-
 }
+
+
 

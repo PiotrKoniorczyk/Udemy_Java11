@@ -1,6 +1,6 @@
-package JavaOdPodstaw.Lesson_27_Methods;
+package JavaOdPodstaw.Lesson_27_Parameters;
 
-public class methods {
+public class parameters {
 
 //    public static void main(String[] args) {
 //        sayHi1("Tomek", "Marek");
