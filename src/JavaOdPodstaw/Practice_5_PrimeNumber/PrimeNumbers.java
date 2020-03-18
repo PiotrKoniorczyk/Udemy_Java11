@@ -13,6 +13,7 @@ public class PrimeNumbers {
         System.out.println((7+ " - is a prime number? - ")+primeNumber(7));
         System.out.println((11+ " - is a prime number? - ")+primeNumber(11));
         System.out.println((13+ " - is a prime number? - ")+primeNumber(13));
+        System.out.println((19+ " - is a prime number? - ")+primeNumber(19));
         System.out.println("-----------------------------");
         System.out.println((4+ " - is a prime number? - ")+primeNumber(4));
         System.out.println((6+ " - is a prime number? - ")+primeNumber(6));
@@ -22,8 +23,6 @@ public class PrimeNumbers {
 
 
     }
-
-
     public static boolean primeNumber(int Number) {
         boolean PrimeNumberTest = true;
 
@@ -37,5 +36,6 @@ public class PrimeNumbers {
                 break;
                 }
         return PrimeNumberTest;
+
     }
 }

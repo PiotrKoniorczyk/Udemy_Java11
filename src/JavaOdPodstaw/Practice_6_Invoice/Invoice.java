@@ -1,13 +1,10 @@
 package JavaOdPodstaw.Practice_6_Invoice;
 
 
-
-
 public class Invoice {
     public static void main(String[] args) {
 
         //----- NUMBER AND DATE----
-
         String invoiceNumber = "01/2020";
         String invoiceDate = "01.02.2020";
 
@@ -213,8 +210,6 @@ public class Invoice {
                 +"         Net Value- "+ product_5.getNetValue()+"zł"
                 +"         VAT- "+ product_5.getVAT()
                 +"         Gross Value "+ product_5.getGrossValue()+"zł");
-
-
         //print Total
 
         System.out.println();
@@ -227,8 +222,6 @@ public class Invoice {
         System.out.format("VAT Value total = : %.2f", VATTotal);
         System.out.println();
         System.out.format("Gross Value total = : %.2f", GrossTotal);
-
-
     }
 
 
