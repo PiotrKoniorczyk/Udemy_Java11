@@ -6,13 +6,19 @@ package JavaOdPodstaw.Practice_7.Decoder_Encoder.Utils;
 
         public static void main(String[] args) {
 
-
-            String textToCode = "code";
-            textToCode = textToCode.toLowerCase();
-            int textToCode_lenght = textToCode.length();
-            char[] textToCode_Split = textToCode.toCharArray();
-
+            //enter the text to be encoded and the secret code
+            String textToEncode = "code";
             String secretCode = "ADFGVX";
+
+
+
+
+
+            textToEncode = textToEncode.toLowerCase();
+            int textToCode_lenght = textToEncode.length();
+            char[] textToCode_Split = textToEncode.toCharArray();
+
+
             int secretCode_lenght = secretCode.length();
 
             if (secretCode_lenght != 6) {
@@ -20,7 +26,7 @@ package JavaOdPodstaw.Practice_7.Decoder_Encoder.Utils;
                 System.exit(0);
             }
 
-        char[] secretCode_Split = secretCode.toCharArray();
+            char[] secretCode_Split = secretCode.toCharArray();
 
 
 
@@ -39,6 +45,10 @@ package JavaOdPodstaw.Practice_7.Decoder_Encoder.Utils;
 
 
             for (int i = 0; i < textToCode_lenght; i++) {
+                if(textToCode_Split[i] == ' '){
+                    result_row[i] = 9;
+                    result_column[i] = 9;
+                }
                 for (int r = 0; r < 6; r++) {
                     for (int c = 0; c < 6; c++) {
                         if (textToCode_Split[i] == secretTable[r][c]){
@@ -54,6 +64,10 @@ package JavaOdPodstaw.Practice_7.Decoder_Encoder.Utils;
 
 
             for (int k = 0; k <= textToCode_lenght-1; k++) {
+                if(result_row[k] == 9 || result_column[k] == 9){
+                    resultCode[k] = String.valueOf('|');
+
+                }else
                 resultCode[k] = String.valueOf(secretCode_Split[result_row[k]]
                         + String.valueOf(secretCode_Split[result_column[k]]));
             }
