@@ -68,7 +68,7 @@ package JavaOdPodstaw.Practice_7.Decoder_Encoder.Utils;
                     resultCode[k] = String.valueOf('|');
 
                 }else
-                resultCode[k] = String.valueOf(secretCode_Split[result_row[k]]
+                resultCode[k] = (secretCode_Split[result_row[k]]
                         + String.valueOf(secretCode_Split[result_column[k]]));
             }
 
