@@ -8,7 +8,7 @@ package JavaOdPodstaw.Practice_7_Decoder_Encoder;
 
 
             //enter the text you want to encode
-            String textToEncode = "To be, or not to be, that is the question";
+            String textToEncode = "To be, or not to be, that is the question.";
 
             //enter 8 different secretcode characters
             String secretCode = "sw3rgp01";
@@ -74,7 +74,7 @@ package JavaOdPodstaw.Practice_7_Decoder_Encoder;
             resultCode = new String[textToEncode.length()];
 
 
-            for (int k = 0; k <= textToEncode.length()-1; k++) {
+            for (int k = 0; k < textToEncode.length(); k++) {
 
                 resultCode[k] = (secretCode.toCharArray()[result_row[k]]
                         + String.valueOf(secretCode.toCharArray()[result_column[k]]));
