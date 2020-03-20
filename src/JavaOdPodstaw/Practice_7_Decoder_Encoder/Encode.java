@@ -10,7 +10,7 @@ package JavaOdPodstaw.Practice_7_Decoder_Encoder;
             //enter the text you want to encode
             String textToEncode = "To be, or not to be, that is the question.";
 
-            //enter 8 different secretcode characters
+            //enter 8 different secret code characters
             String secretCode = "sw3rgp01";
 
 

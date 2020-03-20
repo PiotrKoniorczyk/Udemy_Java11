@@ -9,7 +9,7 @@ public class Decode {
         //enter the text to decode
         String textToDecode = "pgg3s1ss0rpss1g330s1p3g3pgs1pgg3s1ss0rpss1pgw33gpgs1r0s3s1pgw30rs1013w0rs3pgr0g3p31s";
 
-        //enter secretcode characters
+        //enter secret code characters
         String secretCode = "sw3rgp01";
 
 

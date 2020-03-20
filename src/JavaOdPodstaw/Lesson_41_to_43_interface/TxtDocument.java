@@ -1,6 +1,6 @@
-package JavaOdPodstaw.Lesson_41_interface;
+package JavaOdPodstaw.Lesson_41_to_43_interface;
 
-public class TxtDocument implements Interface {
+public class TxtDocument implements Document {
     @Override
     public boolean save() {
         System.out.println("save txt doc");
