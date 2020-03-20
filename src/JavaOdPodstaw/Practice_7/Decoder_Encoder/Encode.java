@@ -13,7 +13,6 @@ package JavaOdPodstaw.Practice_7.Decoder_Encoder;
 
 
             textToEncode = textToEncode.toLowerCase();
-            int textToCode_lenght = textToEncode.length();
             char[] textToCode_Split = textToEncode.toCharArray();
 
 
@@ -47,13 +46,13 @@ package JavaOdPodstaw.Practice_7.Decoder_Encoder;
                     {'.', 'm', '@', '>', '5', '&','f', '\n' }};
 
             int[] result_row;
-            result_row = new int[textToCode_lenght];
+            result_row = new int[textToEncode.length()];
 
             int[] result_column;
-            result_column = new int[textToCode_lenght];
+            result_column = new int[textToEncode.length()];
 
 
-            for (int i = 0; i < textToCode_lenght; i++) {
+            for (int i = 0; i < textToEncode.length(); i++) {
 
                 for (int r = 0; r < 8; r++) {
                     for (int c = 0; c < 8; c++) {
@@ -66,16 +65,16 @@ package JavaOdPodstaw.Practice_7.Decoder_Encoder;
             }
 
             String [] resultCode;
-            resultCode = new String[textToCode_lenght];
+            resultCode = new String[textToEncode.length()];
 
 
-            for (int k = 0; k <= textToCode_lenght-1; k++) {
+            for (int k = 0; k <= textToEncode.length()-1; k++) {
 
                 resultCode[k] = (secretCode.toCharArray()[result_row[k]]
                         + String.valueOf(secretCode.toCharArray()[result_column[k]]));
             }
 
-            for (int i = 0; i < textToCode_lenght ; i++) {
+            for (int i = 0; i < textToEncode.length() ; i++) {
                 System.out.print(resultCode[i]);
 
             }
