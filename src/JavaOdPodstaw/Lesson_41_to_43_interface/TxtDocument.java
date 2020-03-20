@@ -11,4 +11,9 @@ public class TxtDocument implements Document {
     public String open(String path) {
         return "txt file" + path;
     }
+
+    @Override
+    public void onClick() {
+
+    }
 }

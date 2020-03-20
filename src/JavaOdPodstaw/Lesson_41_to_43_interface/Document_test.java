@@ -1,8 +1,7 @@
 package JavaOdPodstaw.Lesson_41_to_43_interface;
 
-import org.w3c.dom.ls.LSOutput;
 
-public class Document_test {
+public class Document_test  {
     public static void main(String[] args) {
 
 
@@ -15,6 +14,11 @@ public class Document_test {
         draw.introduceYourSelf();
 
         Document calc = new Document() {
+            @Override
+            public void onClick() {
+
+            }
+
             @Override
             public boolean save() {
                 return false;

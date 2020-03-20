@@ -19,6 +19,6 @@ public class DrawDocument implements Document {
 
     @Override
     public void onClick() {
-        
+
     }
 }

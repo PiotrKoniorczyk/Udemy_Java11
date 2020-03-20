@@ -12,9 +12,6 @@ public class Decode {
         //enter secret code characters
         String secretCode = "sw3rgp01";
 
-
-
-
         char[] secretCode_Split = secretCode.toCharArray();
 
 
