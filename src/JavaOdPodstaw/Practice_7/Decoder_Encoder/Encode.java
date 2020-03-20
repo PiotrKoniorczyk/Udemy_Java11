@@ -1,0 +1,85 @@
+package JavaOdPodstaw.Practice_7.Decoder_Encoder;
+
+
+    public class Encode {
+
+
+        public static void main(String[] args) {
+
+
+            String textToEncode = "To be, or not to be, that is the question";//enter the text to be encoded and the secret code
+            String secretCode = "sw3rgp01"; //can't have duplicate char
+
+
+
+            textToEncode = textToEncode.toLowerCase();
+            int textToCode_lenght = textToEncode.length();
+            char[] textToCode_Split = textToEncode.toCharArray();
+
+
+            if (secretCode.length() != 8) {
+                System.out.println("Secret code must have 8 char");
+                System.exit(0);
+            }
+
+            char[] secretCode_Split = secretCode.toCharArray();
+            for (int i = 0; i < secretCode.length() ; i++) {
+                for (int j = 0; j < secretCode.length(); j++) {
+                    if (i == j){
+                        continue;
+                    }
+                    else if (secretCode_Split[i] == secretCode_Split[j]){
+                        System.out.println("Secret code must have 8 different characters");
+                        System.exit(0);
+                }
+
+                }
+
+            }
+            char[][] secretTable =
+                    {{'b', '0', 's', '_', 'k', '{','$', ' ' },
+                    {'/', '4', 'h', '<', ']', '9','!',':'},
+                    {'-', 'u', ';', 'z', 'a', 'j','r','_'},
+                    {'l', '3', 'c', '8', '#', '"','i','1'},
+                    {'w', '7', 'o', '2', 'y', 'p','(','}'},
+                    {',', 'd', 'n', '*', 't', '%','g','['},
+                    {'x', '?', '=', 'e', '+', '6',')','q'},
+                    {'.', 'm', '@', '>', '5', '&','f', '\n' }};
+
+            int[] result_row;
+            result_row = new int[textToCode_lenght];
+
+            int[] result_column;
+            result_column = new int[textToCode_lenght];
+
+
+            for (int i = 0; i < textToCode_lenght; i++) {
+
+                for (int r = 0; r < 8; r++) {
+                    for (int c = 0; c < 8; c++) {
+                        if (textToCode_Split[i] == secretTable[r][c]){
+                            result_row[i] = r;
+                            result_column[i] = c;
+                        }
+                    }
+                }
+            }
+
+            String [] resultCode;
+            resultCode = new String[textToCode_lenght];
+
+
+            for (int k = 0; k <= textToCode_lenght-1; k++) {
+
+                resultCode[k] = (secretCode.toCharArray()[result_row[k]]
+                        + String.valueOf(secretCode.toCharArray()[result_column[k]]));
+            }
+
+            for (int i = 0; i < textToCode_lenght ; i++) {
+                System.out.print(resultCode[i]);
+
+            }
+
+    }
+
+}
