@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Practice_7.Decoder_Encoder;
+package JavaOdPodstaw.Practice_7_Decoder_Encoder;
 
 
     public class Encode {
@@ -7,8 +7,14 @@ package JavaOdPodstaw.Practice_7.Decoder_Encoder;
         public static void main(String[] args) {
 
 
-            String textToEncode = "To be, or not to be, that is the question";//enter the text to be encoded and the secret code
-            String secretCode = "sw3rgp01"; //can't have duplicate char
+            //enter the text you want to encode
+            String textToEncode = "To be, or not to be, that is the question";
+
+            //enter 8 different secretcode characters
+            String secretCode = "sw3rgp01";
+
+
+
 
 
 
