@@ -22,7 +22,6 @@ public class Poly {
         box1.setT(new TxtDocument());
         box1.setT(new DrawDocument());
 
-
         Box<String> box2 = new Box<>();
         box2.setT("box2");
 

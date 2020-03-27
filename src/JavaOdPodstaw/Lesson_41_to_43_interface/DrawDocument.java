@@ -13,7 +13,7 @@ public class DrawDocument implements Document {
     }
 
 
-    public void draw(onClickListener ocl) {
+    public void draw(OnClickListener ocl) {
         System.out.println("draw... ");
     }
 

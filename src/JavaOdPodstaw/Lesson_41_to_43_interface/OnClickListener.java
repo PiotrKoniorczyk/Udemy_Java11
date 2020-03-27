@@ -1,6 +1,6 @@
 package JavaOdPodstaw.Lesson_41_to_43_interface;
 
-public interface onClickListener {
+public interface OnClickListener {
     void onClick();
 
 }

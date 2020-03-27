@@ -1,6 +1,6 @@
 package JavaOdPodstaw.Lesson_41_to_43_interface;
 
-public interface Document extends onClickListener {
+public interface Document extends OnClickListener {
 
     public String d = "d";
 
