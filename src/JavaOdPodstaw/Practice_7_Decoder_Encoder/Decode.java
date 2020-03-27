@@ -7,10 +7,10 @@ public class Decode {
 
 
         //enter the text to decode
-        String textToDecode = "pgg3s1ss0rpss1g330s1p3g3pgs1pgg3s1ss0rpss1pgw33gpgs1r0s3s1pgw30rs1013w0rs3pgr0g3p31s";
+        String textToDecode = "j5jqktt5tsk559tsskjssjttsjksts5998tsskst8q59kttt59skqj5sktqj5559skst5t59sjk8sqtst5jqqjss99jqj5qj59jsjq5559ktsqsjqj55st59jsqjksjq55k559ktqjks59ktttj55tts595sjq5559k8tst5jqqjk5995tktts59jsjq55595sktsqstjsjq559559k8sjjq5559tkjq555tksts555559ktt55559t559jsst55qjsk59tssjk8ts55jqqj99t5jqk8sj5559jq59tstkjq5ss8sk55k55955ts59kt555s5tksjq5559tkts59ktts55jqqj95";
 
         //enter secret code characters
-        String secretCode = "sw3rgp01";
+        String secretCode = "58sjtkq9";
 
         char[] secretCode_Split = secretCode.toCharArray();
 

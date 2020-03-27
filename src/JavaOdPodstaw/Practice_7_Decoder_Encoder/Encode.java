@@ -8,10 +8,13 @@ package JavaOdPodstaw.Practice_7_Decoder_Encoder;
 
 
             //enter the text you want to encode
-            String textToEncode = "To be, or not to be, that is the question.";
+            String textToEncode = "Litwo, Ojczyzno moja! ty jesteś jak zdrowie;\n" +
+                    "Ile cię trzeba cenić, ten tylko się dowie,\n" +
+                    "Kto cię stracił. Dziś piękność twą w całej ozdobie\n" +
+                    "Widzę i opisuję, bo tęsknię po tobie.";
 
             //enter 8 different secret code characters
-            String secretCode = "sw3rgp01";
+            String secretCode = "58sjtkq9";
 
 
 
