@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Practice_3_SumOfNumbers;
+package JavaOdPodstaw.Practice_03_SumOfNumbers;
 
 public class SumOfNumbers {
     public static void main(String[] args) {

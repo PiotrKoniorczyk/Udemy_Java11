@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Practice_6_Invoice;
+package JavaOdPodstaw.Practice_06_Invoice;
 
 public class CompanyAddress {
 

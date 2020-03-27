@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Practice_4_DivisibleNumbers;
+package JavaOdPodstaw.Practice_04_DivisibleNumbers;
 
 
 public class DivisibleNumbers {

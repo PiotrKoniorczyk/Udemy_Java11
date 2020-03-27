@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Practice_5_PrimeNumber;
+package JavaOdPodstaw.Practice_05_PrimeNumber;
 
 public class PrimeNumbers {
     public static void main(String[] args) {

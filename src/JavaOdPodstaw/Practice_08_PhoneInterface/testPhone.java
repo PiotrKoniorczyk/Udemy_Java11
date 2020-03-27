@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Practice_8_PhoneInterface;
+package JavaOdPodstaw.Practice_08_PhoneInterface;
 
 public class testPhone {
     public static void main(String[] args) {

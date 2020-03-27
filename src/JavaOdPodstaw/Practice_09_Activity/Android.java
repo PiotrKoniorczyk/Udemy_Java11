@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Practice_9_Activity;
+package JavaOdPodstaw.Practice_09_Activity;
 
 public class Android extends Activity{
 

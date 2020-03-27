@@ -1,8 +1,6 @@
-package JavaOdPodstaw.Practice_8_PhoneInterface;
+package JavaOdPodstaw.Practice_08_PhoneInterface;
 
-public class PhoneCall implements PhoneInterface {
-
-
+public class PhoneSMS implements PhoneInterface {
     @Override
     public boolean unLock(int x) {
 
@@ -10,19 +8,12 @@ public class PhoneCall implements PhoneInterface {
             return true;
         }
         return false;
-
-
     }
 
     @Override
     public String inProgress(String path) {
+        System.out.println("Writhing message in progress");
         return null;
-    }
-
-
-
-    public void PhoneCalling(){
-        System.out.println("Calling in progress");
     }
 
     @Override

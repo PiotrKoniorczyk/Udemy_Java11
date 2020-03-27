@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Practice_7_Decoder_Encoder;
+package JavaOdPodstaw.Practice_07_Decoder_Encoder;
 
 
     public class Encode {
