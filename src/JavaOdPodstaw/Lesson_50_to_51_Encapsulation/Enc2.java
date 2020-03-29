@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Lesson_50_Encapsulation;
+package JavaOdPodstaw.Lesson_50_to_51_Encapsulation;
 
 public class Enc2 {
 

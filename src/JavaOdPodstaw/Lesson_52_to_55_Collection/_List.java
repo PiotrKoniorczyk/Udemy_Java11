@@ -1,4 +1,4 @@
-package JavaOdPodstaw.Lesson_51_Collection;
+package JavaOdPodstaw.Lesson_52_to_55_Collection;
 
 import java.util.ArrayList;
 

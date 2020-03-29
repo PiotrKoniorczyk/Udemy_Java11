@@ -1,6 +1,6 @@
-package JavaOdPodstaw.Lesson_50_Encapsulation.inside;
+package JavaOdPodstaw.Lesson_50_to_51_Encapsulation.inside;
 
-import JavaOdPodstaw.Lesson_50_Encapsulation.Enc;
+import JavaOdPodstaw.Lesson_50_to_51_Encapsulation.Enc;
 
 public class Enc2 extends Enc{
     void test(){
