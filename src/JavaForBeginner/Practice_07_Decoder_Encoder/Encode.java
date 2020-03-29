@@ -17,10 +17,6 @@ package JavaForBeginner.Practice_07_Decoder_Encoder;
             String secretCode = "58sjtkq9";
 
 
-
-
-
-
             textToEncode = textToEncode.toLowerCase();
             char[] textToCode_Split = textToEncode.toCharArray();
 
