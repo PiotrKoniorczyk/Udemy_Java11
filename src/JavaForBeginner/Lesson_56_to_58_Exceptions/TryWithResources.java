@@ -1,4 +1,4 @@
-package JavaForBeginner.Lesson_56_Exceptions;
+package JavaForBeginner.Lesson_56_to_58_Exceptions;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package JavaForBeginner.Lesson_56_Exceptions;
+package JavaForBeginner.Lesson_56_to_58_Exceptions;
 
 public class Exc {
     public static void main(String[] args) {

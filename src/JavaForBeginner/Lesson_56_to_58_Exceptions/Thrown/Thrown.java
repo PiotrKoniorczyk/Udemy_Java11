@@ -1,4 +1,4 @@
-package JavaForBeginner.Lesson_56_Exceptions.Thrown;
+package JavaForBeginner.Lesson_56_to_58_Exceptions.Thrown;
 
 import java.io.FileNotFoundException;
 
