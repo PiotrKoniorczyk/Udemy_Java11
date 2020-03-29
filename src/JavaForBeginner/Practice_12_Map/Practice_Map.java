@@ -14,7 +14,7 @@ public class Practice_Map {
         coordinates.put(3,51);
         coordinates.put(4,13);
         coordinates.put(5,82);
-        coordinates.put(6,22);
+        coordinates.put(6,2);
 
 
         for(Map.Entry<Integer, Integer> cor : coordinates.entrySet()){
