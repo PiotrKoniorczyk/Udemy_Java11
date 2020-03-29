@@ -7,13 +7,9 @@ public class PrimeNumber_2 {
         for (int i = firstNumber; i <= lastNumber ; i++) {
             if (PrimeTest(i)==true){
                 System.out.print(i + ", ");
-
             }
-
         }
     }
-
-
     public boolean PrimeTest(int checkedNumber){
         boolean PrimeNumberTest = true;
 
@@ -27,8 +23,5 @@ public class PrimeNumber_2 {
                 break;
             }
         return PrimeNumberTest;
-
     }
-
     }
-
