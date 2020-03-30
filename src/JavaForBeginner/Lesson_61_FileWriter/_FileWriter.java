@@ -1,20 +1,21 @@
 package JavaForBeginner.Lesson_61_FileWriter;
 
-import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
-public class FileWriter {
+public class _FileWriter {
     public static void main(String[] args) {
-//"/Users/pro/Programowanie/Java/Udemy/src/JavaForBeginner/Lesson_61_FileWriter/FileToWrite"
-
-
 
 
         try{
-            FileWriter writer = new FileWriter("/Users/pro/Programowanie/Java/Udemy/src/JavaForBeginner/Lesson_61_FileWriter/FileToWrite.txt");
-            writer.write("Hello");
+            FileWriter writer = new FileWriter("/Users/pro/Programowanie/Java/Udemy/src/JavaForBeginner/Lesson_61_FileWriter/FileToWrite",true);
+            writer.write("To be, or not to be,");
             writer.write("\r\n");
-        }catch (Exception e){
+            writer.write("that is the question");
+            writer.close();
+        }catch (IOException e){
             e.printStackTrace();
         }
+        System.out.println(Math.abs(4));
     }
 }
