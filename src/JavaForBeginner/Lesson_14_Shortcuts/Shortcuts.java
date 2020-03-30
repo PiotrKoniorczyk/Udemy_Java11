@@ -1,4 +1,4 @@
-package JavaForBeginner.Lesson_14;
+package JavaForBeginner.Lesson_14_Shortcuts;
 
 public class Shortcuts{
     public static void main(String[] args) {

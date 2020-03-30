@@ -1,4 +1,4 @@
-package JavaForBeginner.Lesson_13;
+package JavaForBeginner.Lesson_13_VariablesPractice;
 
 public class VariablesPractice {
     public static void main(String[] args) {
